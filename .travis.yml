@@ -17,7 +17,7 @@ deploy:
   bucket: $S3_BUCKET
   region: sa-east-1
   skip_cleanup: true
-  local-dir: dist
+  local-dir: build
   on:
     branch: master
 after_deploy:
