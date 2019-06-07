@@ -8,6 +8,7 @@ class Home extends React.Component<any, any> {
         <div>HOME</div>
         <div><Link to='/one'>Goto Page One</Link></div>
         <div><Link to='/two'>Goto Page Two</Link></div>
+        <div><Link to='/three'>Goto Page three</Link></div>
       </div>);
   }
 }
